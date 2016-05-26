@@ -19,3 +19,14 @@ In any element you can simply add a keyframes attribute to utilize this awesome 
 </div>
 
 The syntax is _frameNumber_{ _methodName_(_[argument1][,argument2][,duration]_) _[,methodName2([argument1][,argument2][,duration])]_ }
+
+### valid methods
+hide()
+show()
+fadeIn(_duration_)
+fadeOut(_duration_)
+moveTo(_x_, _y_, _duration_)
+scale(_sx_, _sy_, _duration_)
+rotate(_amt_, _duration_)
+blur(_amt_, _duration_)
+
